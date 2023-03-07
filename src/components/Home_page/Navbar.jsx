@@ -13,8 +13,8 @@ const Navbar = () => {
 	return (
 		<div className="w-full h-[80px] bg-white sticky top-0 right-0 z-10">
 			{/* desktop meny */}
-			<div className="flex justify-between items-center px-4 md:px-0 pt-6 md:max-w-[80%] w-3/4 mx-auto">
-				<div className=" w-16">
+			<div className="flex justify-between items-center px-2 sm:px-6 md:px-0 pt-6 md:max-w-[80%] md:w-3/4 mx-auto">
+				<div className="w-16 cursor-pointer">
 					<img
 						className="w-full"
 						src="https://assets.zyrosite.com/loki04208/Union-Aq2x89LJE2cPD57W.svg"
@@ -22,9 +22,15 @@ const Navbar = () => {
 					/>
 				</div>
 				<ul className="md:flex items-center font-bold text-lg gap-12 hidden">
-					<li className="">About</li>
-					<li className="">Menu</li>
-					<li className="">Contact</li>
+					<li className="hover:border-b-black hover:border-b-2 cursor-pointer">
+						About
+					</li>
+					<li className="hover:border-b-black hover:border-b-2 cursor-pointer">
+						Menu
+					</li>
+					<li className="hover:border-b-black hover:border-b-2 cursor-pointer">
+						Contact
+					</li>
 				</ul>
 
 				{/* mobile menu bars */}
