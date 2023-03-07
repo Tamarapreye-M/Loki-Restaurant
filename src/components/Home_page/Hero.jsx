@@ -22,8 +22,8 @@ const Hero = () => {
 				/>
 			</div>
 			<div className="uppercase text-center h-full absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-[18%] ">
-				<h1 className="sm:text-2xl text-xl md:text-7xl font-heading">loki</h1>
-				<p className=" sm:text-sm text-sm md:text-xl">japanese cuisine</p>
+				<h1 className="sm:text-4xl text-2xl md:text-7xl font-heading">loki</h1>
+				<p className=" sm:text-sm text-xs md:text-xl">japanese cuisine</p>
 			</div>
 		</div>
 	);
