@@ -7,6 +7,7 @@
 		font-family: Montserrat, sans-serif;
 	}
 	button {
-		@apply py-3 px-8 uppercase border-2 rounded border-black text-base;
+		@apply sm:py-3 sm:px-8 py-1 px-5 uppercase border md:border-2 rounded sm:text-base text-xs;
+		@apply hover:bg-black hover:text-white;
 	}
 }
