@@ -1,17 +1,17 @@
 import React from "react";
-import Footer from "./Footer";
+import Footer from "../../Footer";
+import Navbar from "../../Navbar";
 import Hero from "./Hero";
 import Main from "./HomeMain";
-import Navbar from "./Navbar";
 
 const Home = () => {
 	return (
-		<>
+		<div className="grid min-h-screen">
 			<Navbar />
 			<Hero />
 			<Main />
-			<Footer />
-		</>
+			<Footer className="mt-auto" />
+		</div>
 	);
 };
 
